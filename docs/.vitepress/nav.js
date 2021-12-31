@@ -1,60 +1,47 @@
 module.exports = [
   {
-    text: '开发者文档', link: '/guide/',
+    text: '前端',
     items: [
-      { text: '文档撰写指南', link: '/guide/document-writing/'},
-      { text: '组件库开发规范', link: '/guide/development-norms/'},
+      { text: 'HTML/CSS', link: '/frontend/html-css/html/1-html5' },
+      { text: 'JavaScript基础', link: '/frontend/javascript/' },
+      { text: 'JavaScript进阶', link: '/frontend/javascript-enhance/' },
+      { text: 'Node Js', link: '/frontend/nodejs/' },
+      { text: 'Vue&Vue3', link: '/frontend/vue/' },
+      { text: '前端性能优化', link: '/frontend/xxx/' },
     ]
   },
   {
-    text: '移动端组件库', link: '/mobile/',
+    text: '基础知识',
     items: [
-      { text: '概览', link: '/mobile/' },
-      { text: '组件', link: '/mobile/components/button/' },
+      { text: 'git', link: '/base/' },
+      { text: '网络', link: '/base/' },
+      { text: '正则', link: '/base/' },
+      { text: '数据结构与算法', link: '/base/' },
+      { text: '设计模式', link: '/base/' },
+      { text: '软件工程', link: '/base/' },
     ]
   },
   {
-    text: 'PC端组件库', link: '/pc/',
+    text: '运维',
     items: [
-      { text: '概览', link: '/pc/' },
-      { text: '组件', link: '/pc/components/button/' },
+      { text: 'Linux', link: '/operations/Linux/' },
+      { text: 'docker', link: '/operations/docker/' },
     ]
   },
   {
-    text: 'JS工具库', link: '/plugin/',
+    text: '后端',
     items: [
-      { text: '概览', link: '/plugin/' },
-      { text: '工具', link: '/plugin/plugins/xxx/' },
+      { text: 'Python', link: '/backend/Python/' },
+      { text: 'MySQL', link: '/backend/MySQL/' },
     ]
   },
   {
     text: '工具箱',
     items: [
-      // {
-      //   text: '常用网页工具',
-      //   items: [
-      //     { text: '草料二维码', link: 'https://cli.im/' },
-      //     { text: 'lottie 动画预览', link: 'https://lottiefiles.com/preview' },
-      //     { text: 'processon | 画流程图', link: 'https://www.processon.com/' },
-      //     { text: 'diagrams | 画流程图', link: 'https://app.diagrams.net/' }
-      //   ]
-      // },
-      // {
-      //   text: '下载工具',
-      //   items: [
-      //     { text: 'svg查看器', link: 'https://github.com/tibold/svg-explorer-extension/releases' }
-      //   ]
-      // },
-      // {
-      //   text: '博客指南',
-      //   items: [
-      //     { text: 'vuepress使用指南', link: 'https://vuepress.vuejs.org/' },
-      //     { text: 'Markdown指南中文版', link: 'https://www.markdown.xyz/' },
-      //     { text: 'ES6 标准入门教程', link: 'https://www.bookstack.cn/read/es6-3rd/sidebar.md' },
-      //     { text: 'Vue3', link: 'https://v3.vuejs.org/' },
-      //     { text: 'Tailwind', link: 'https://tailwindcss.com/blog/tailwindcss-v2' }
-      //   ]
-      // }
+      { text: '草料二维码', link: 'https://cli.im/' },
+      { text: 'processon | 画流程图', link: 'https://www.processon.com/' },
+      { text: 'diagrams | 画流程图', link: 'https://app.diagrams.net/' },
+      { text: 'svg查看器', link: 'https://github.com/tibold/svg-explorer-extension/releases' },
     ]
   }
 ]

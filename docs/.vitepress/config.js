@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Carrie\'s Doc',
-  description: '物来顺应',
+  title: 'Doc',
+  description: '物来顺应，未来不迎',
   // head: [
   //   // 添加图标
   //   ['link', { rel: 'icon', href: '/img/carrie.ico' }]
@@ -19,7 +19,6 @@ module.exports = {
   //     { text: 'Github', link: 'https://github.com/Jack-Star-T' }
   //   ]
   // },
-  port: '6666',
   head: [
     ['link', { rel: 'icon', href: './img/carrie.ico' }]
   ],
@@ -27,10 +26,8 @@ module.exports = {
     lineNumbers: true
   },
   themeConfig: {
-    smoothScroll: true,
     nav: require('./nav.js'),
     sidebar: require('./sidebar/index'),
-    sidebarDepth: 2,
     lastUpdated: 'Last Updated',
     searchMaxSuggestoins: 10,
     serviceWorker: {

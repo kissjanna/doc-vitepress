@@ -1,6 +1,6 @@
 module.exports = {
-  '/guide/': require('./guide'),
-  '/mobile/': require('./mobile'),
-  '/pc/': require('./pc'),
-  '/plugin/': require('./plugin'),
+  '/frontend/': require('./frontend'),
+  '/base/': require('./base'),
+  '/operations/': require('./operations'),
+  '/backend/': require('./backend'),
 }
