@@ -1,10 +1,10 @@
 ---
 title: xxx
 editLink: true
-sidebar: auto
+home: true
 ---
 
-sidebar can use auto or false
+<!-- sidebar can use auto or false
 
 # base reademe
 
@@ -14,9 +14,6 @@ sidebar can use auto or false
 
 {{page}}
 
-## next title
-
-## second title
 
 ::: v-pre
 `{{ This will be displayed as-is }}`
@@ -35,9 +32,13 @@ export default {
   name: 'MyComponent',
   // ...
 }
-```
+``` -->
 
 <CustomComponent />
+
+<img :src="withBase('/img/gg.jpeg')" alt="foo">
+
+<!-- ![test image](./img/gg.jpeg) -->
 
 <script setup>
 import { withBase, useData } from 'vitepress'
@@ -47,10 +48,6 @@ const i = 'iii'
 
 const { theme, page } = useData()
 </script>
-
-<template>
-  <img :src="withBase(theme.logoPath)" />
-</template>
 
 <style lang="sass">
 .title

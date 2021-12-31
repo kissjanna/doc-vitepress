@@ -20,7 +20,7 @@ module.exports = {
   //   ]
   // },
   head: [
-    ['link', { rel: 'icon', href: './img/carrie.ico' }]
+    ['link', { rel: 'icon', href: '/img/carrie.ico' }]
   ],
   markdown: {
     lineNumbers: true
