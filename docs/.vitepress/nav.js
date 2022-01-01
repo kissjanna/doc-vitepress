@@ -38,6 +38,7 @@ module.exports = [
   {
     text: '工具箱',
     items: [
+      { text: '收藏的好用小工具', link: '/collected-tools/' },
       { text: '草料二维码', link: 'https://cli.im/' },
       { text: 'processon | 画流程图', link: 'https://www.processon.com/' },
       { text: 'diagrams | 画流程图', link: 'https://app.diagrams.net/' },
