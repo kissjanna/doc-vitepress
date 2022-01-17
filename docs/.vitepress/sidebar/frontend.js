@@ -54,9 +54,15 @@ module.exports = [
     ]
   },
   {
+    text: 'Vue2',
+    children: [
+      { text: '', link: '/frontend/vue/vue2/index' },
+    ]
+  },
+  {
     text: 'Vue3',
     children: [
-      { text: '', link: '/frontend/vue/' },
+      { text: '', link: '/frontend/vue/vue3/index' },
     ]
   },
   {
