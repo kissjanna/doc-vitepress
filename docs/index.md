@@ -36,20 +36,21 @@ export default {
 
 <CustomComponent />
 
-<img :src="withBase('/img/gg.jpeg')" alt="foo">
+<!-- <img class="main-page-gg-img" :src="withBase('/img/gg.jpeg')" alt="foo"> -->
 
 <!-- ![test image](./img/gg.jpeg) -->
 
 <script setup>
 import { withBase, useData } from 'vitepress'
-import CustomComponent from './components/CustomComponent.vue'
+import CustomComponent from './.vitepress/components/CustomComponent.vue'
 
 const i = 'iii'
 
 const { theme, page } = useData()
 </script>
 
-<style lang="sass">
-.title
+<style lang="scss">
+.title {
   font-size: 20px
+}
 </style>
