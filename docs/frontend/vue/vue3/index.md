@@ -57,3 +57,77 @@ const asyncModalWithOptions = defineAsyncComponent({
 })
 ```
 
+## debug 用的钩子函数
+
+onRenderTracked
+
+onRenderTriggered
+
+```javascript
+onRenderTriggered(event => {console.log(event)})
+```
+
+## watch
+
+写在setup里面，不止可以接收一个值，还可以接收一个数组，数组里放多个值
+
+```javascript
+setup () {
+  watch([value1, value2], (newvalue, oldvalue) => {
+    console.log(value1 + value2)
+  })
+}
+```
+
+但是打印出来的reactive对象，是一个proxy，对debug非常不友好
+
+但是如果用类似于data.count这种形式来打印的话，又会使number等类型的值失去响应式，这种值无法被watch
+
+解决的办法是，可以使用getter的方式来监听，也就是使用函数+返回值
+
+```javascript
+setup () {
+  watch([value1, () => data.count], (newvalue, oldvalue) => {
+    console.log(value1 + value2)
+  })
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
