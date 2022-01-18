@@ -56,13 +56,14 @@ module.exports = [
   {
     text: 'Vue2',
     children: [
-      { text: '', link: '/frontend/vue/vue2/index' },
+      { text: 'vue2', link: '/frontend/vue/vue2/index' },
     ]
   },
   {
     text: 'Vue3',
     children: [
-      { text: '', link: '/frontend/vue/vue3/index' },
+      { text: 'vue3', link: '/frontend/vue/vue3/index' },
+      { text: 'vue3补充', link: '/frontend/vue/vue3/2' },
     ]
   },
   {
