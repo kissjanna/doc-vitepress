@@ -40,6 +40,15 @@ export default {
 
 <!-- ![test image](./img/gg.jpeg) -->
 
+## 待办
+1、js 手写 promise
+2、js for 相关的几种区分
+3、js 原型链
+4、js class
+5、js 防抖和节流
+6、js proxy
+7、js 手写bind
+
 <script setup>
 import { withBase, useData } from 'vitepress'
 import CustomComponent from './.vitepress/components/CustomComponent.vue'

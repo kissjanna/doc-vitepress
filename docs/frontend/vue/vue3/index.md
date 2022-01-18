@@ -47,7 +47,7 @@ import LoadingComponent from './components/LoadingComponent.vue'
 // 不带选项的异步组件
 const asyncModal = defineAsyncComponent(() => import('./Modal.vue'))
 
-// 带选项的异步组件
+// 带选项的异步组件，component更名为loader，异步懒加载的含义更加清晰
 const asyncModalWithOptions = defineAsyncComponent({
   loader: () => import('./Modal.vue'),
   delay: 200,
@@ -131,3 +131,19 @@ setup () {
 
 
 
+// 此外，与 2.x 不同，loader 函数不再接收 resolve 和 reject 参数，且必须始终返回 Promise
+
+```javascript
+// 2.x 版本
+const oldAsyncComponent = (resolve, reject) => {
+  /* ... */
+}
+
+// 3.x 版本
+const asyncComponent = defineAsyncComponent(
+  () =>
+    new Promise((resolve, reject) => {
+      /* ... */
+    })
+)
+```
