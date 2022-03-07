@@ -12,14 +12,14 @@ module.exports = [
       },
       {
         text: 'css',
-        link: '/frontend/html-css/css/index',
+        link: '/frontend/html-css/css/',
         children: [
           { text: 'flex', link: '/frontend/html-css/css/1-flex' }
         ]
       },
       {
         text: 'bootstrap',
-        link: '/frontend/html-css/bootstrap/index',
+        link: '/frontend/html-css/bootstrap/',
         children: [
           {}
         ]
@@ -31,7 +31,7 @@ module.exports = [
     children: [
       {
         text: 'ES6',
-        link: '/frontend/javascript/1-es6/index',
+        link: '/frontend/javascript/1-es6/',
         children: [
           { text: 'let 和 const', link: '/frontend/javascript/1-es6/1-let-const' },
           { text: '变量的解构赋值', link: '/frontend/javascript/1-es6/2-variable' },
@@ -44,7 +44,13 @@ module.exports = [
   {
     text: 'JavaScript进阶',
     children: [
-      { text: '', link: '/frontend/javascript-enhance/' },
+      { text: 'JavaScript进阶', link: '/frontend/javascript-enhance/' },
+    ]
+  },
+  {
+    text: 'TypeScript',
+    children: [
+      { text: 'TypeScript', link: '/frontend/typescript/' },
     ]
   },
   {
@@ -56,13 +62,14 @@ module.exports = [
   {
     text: 'Vue2',
     children: [
-      { text: 'vue2', link: '/frontend/vue/vue2/index' },
+      { text: 'vue2', link: '/frontend/vue/vue2/' },
     ]
   },
   {
     text: 'Vue3',
     children: [
-      { text: 'vue3', link: '/frontend/vue/vue3/index' },
+      { text: 'vue3', link: '/frontend/vue/vue3/' },
+      { text: 'vue3-jsx', link: '/frontend/vue/vue3/jsx' },
       { text: 'vue3补充', link: '/frontend/vue/vue3/2' },
     ]
   },

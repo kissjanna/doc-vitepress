@@ -5,6 +5,7 @@ module.exports = [
       { text: 'HTML/CSS', link: '/frontend/html-css/html/1-html5' },
       { text: 'JavaScript基础', link: '/frontend/javascript/' },
       { text: 'JavaScript进阶', link: '/frontend/javascript-enhance/' },
+      { text: 'TypeScript', link: '/frontend/typescript/' },
       { text: 'Node Js', link: '/frontend/nodejs/' },
       { text: 'Vue&Vue3', link: '/frontend/vue/' },
       { text: '前端性能优化', link: '/frontend/xxx/' },
