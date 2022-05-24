@@ -191,6 +191,18 @@ export function h(type: any, propsOrChildren?: any, children?: any): VNode {
 
 返回的是一个对象，返回的对象是可直接在模版中使用的
 
+
+
+语法糖：
+
+<img src="../../../public/img/image-20220401130007509.png" alt="image-20220401130007509" style="zoom:50%;" />
+
+
+
+有需要接收的函数时，如下写法：
+
+<img src="../../../public/img/image-20220401130215866.png" alt="image-20220401130215866" style="zoom:50%;" />
+
 ### this
 
 外部能够拿到return出来的数据，通过this
@@ -237,6 +249,18 @@ jsx 模板中也可使用指令
 vue3 将 props 的结构拍平了，有利于 jsx 的编写❓
 
 视频 2-8 中间
+
+## 路由
+
+:::tip
+注意：路由中的懒加载依旧是直接用 （） => {}
+:::
+
+## provide & inject api
+
+
+
+
 
 
 
